@@ -10,6 +10,8 @@ import { HomeComponent } from './pages/home/home.component';
 import { ProductsComponent } from './pages/products/products.component';
 import { CartComponent } from './pages/cart/cart.component';
 import { ItemComponent } from './pages/item/item.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { AboutComponent } from './pages/about/about.component';
 
 @NgModule({
   declarations: [
@@ -19,12 +21,14 @@ import { ItemComponent } from './pages/item/item.component';
     HomeComponent,
     ProductsComponent,
     CartComponent,
-    ItemComponent
+    ItemComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
