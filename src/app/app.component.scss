@@ -1,7 +1,14 @@
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 .cursorPointer {
-    cursor: pointer;
+  cursor: pointer;
+}
+
+body {
+    overflow: auto;
+  // background-image: url("../assets/images/misc/continuous-cf-bg.png") !important;
+  // background-size: 70px;
+  // background-repeat: repeat;
 }

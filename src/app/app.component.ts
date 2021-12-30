@@ -3,16 +3,7 @@ import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-root',
-  template: `
-    <!-- header -->
-    <app-header></app-header>
-
-    <!-- routes will be rendered here -->
-    <router-outlet></router-outlet>
-
-    <!-- footer -->
-    <app-footer></app-footer>
-  `,
+  templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {

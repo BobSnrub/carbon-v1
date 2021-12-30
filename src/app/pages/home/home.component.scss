@@ -1,0 +1,23 @@
+.carro-border{
+    border: 3px solid;
+}
+
+.border-radius{
+    border-radius: 5px;
+}
+
+.center-x{
+    display: flex;
+    justify-content: center;
+}
+
+.card-btn{
+    position: absolute;
+    bottom: 0%;
+}
+
+.cf-bg {
+  background-image: url("../../../assets/images/misc/continuous-cf-bg.png") !important;
+  background-size: 70px;
+  background-repeat: repeat;
+}

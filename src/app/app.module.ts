@@ -12,6 +12,7 @@ import { CartComponent } from './pages/cart/cart.component';
 import { ItemComponent } from './pages/item/item.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { AboutComponent } from './pages/about/about.component';
+import { ContactComponent } from './pages/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { AboutComponent } from './pages/about/about.component';
     ProductsComponent,
     CartComponent,
     ItemComponent,
-    AboutComponent
+    AboutComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
