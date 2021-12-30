@@ -44,3 +44,10 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+*
+!*/
+
+!.gitignore
+
+!node_modules/bootstrap/dist/css/bootstrap.min.css
