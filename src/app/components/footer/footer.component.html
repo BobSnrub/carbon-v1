@@ -1,11 +1,11 @@
-<footer id="footer" class="navbar-dark bg-primary py-4">
+<footer style="visibility: hidden;" id="footer" class="navbar-dark bg-primary py-4">
     <div class="container">
         <div class="col-lg-12">
             <ul class="list-unstyled">
                 <li class="float-end"><a href="#top">Back to top</a></li>
                 <!-- <li><a href="https://blog.bootswatch.com/">Blog</a></li> -->
                 <!-- <li><a href="https://blog.bootswatch.com/rss/">RSS</a></li> -->
-                <li><a href="https://instagram.com/carbon.barrels"><h2 class="m-0">Instagram</h2></a></li>
+                <li><a href="https://instagram.com/carbon.barrels" class=""><h2 class="m-0 d-flex align-items-start">Instagram <i class='bx bxl-instagram bx-sm'></i></h2></a></li>
                 
                 <!-- <li><a href="https://github.com/thomaspark/bootswatch">GitHub</a></li> -->
                 <!-- <li><a href="../help/#api">API</a></li> -->
@@ -20,3 +20,35 @@
         </div>
     </div>
 </footer>
+
+<footer class="container-fluid bg-primary py-5">
+    <div class="container p-0">
+        <div class="row">
+            <div class="col-12 col-lg-3 d-flex justify-content-center align-items-center no-md-border border-end border-dark">
+                <img [routerLink]="['home']" class="" src="../../../assets/images/LogosAndIcons/main-logo-1.png" alt="..." height="100px">
+            </div>
+            <div class="col-12 col-lg-6 px-2 px-md-5">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            </div>
+            <div class="col-12 col-lg-3 d-flex justify-content-center align-items-center no-md-border border-start border-dark">
+                <a href="https://instagram.com/carbon.barrels" target="_blank">
+                    <i class='bx bxl-instagram instaSize'></i>
+                </a>
+            </div>
+        </div>
+        
+        <hr class="bg-dark opacity-100 px-0">
+
+        <div class="row">
+        <ul class="mt-2 d-flex justify-content-around">
+                <li [routerLink]="['home']" class="btn btn-outline-light d-inline">Home</li>
+                <li [routerLink]="['about']" class="btn btn-outline-light d-inline">About</li>
+                <li [routerLink]="['contact']" class="btn btn-outline-light d-inline">Contact</li>
+                <li [routerLink]="['cart']" class="btn btn-outline-light d-inline">Cart</li>
+            </ul>
+        </div>
+    </div>
+</footer>
+

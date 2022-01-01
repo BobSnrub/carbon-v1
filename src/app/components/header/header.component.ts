@@ -1,6 +1,6 @@
 import { Component, Directive, Input, OnInit } from '@angular/core';
 import { NavigationStart, Router } from '@angular/router';
-import { faCartArrowDown, faCoffee, fas } from '@fortawesome/free-solid-svg-icons';
+// import { faCartArrowDown, faCoffee, fas } from '@fortawesome/free-solid-svg-icons';
 
 @Directive({selector: 'navWrapper'})
 export class navWrapper {
@@ -14,9 +14,9 @@ export class navWrapper {
 })
 
 export class HeaderComponent implements OnInit {
-  cart = faCartArrowDown;
-  coffee = faCoffee;
-  fas = fas;
+  // cart = faCartArrowDown;
+  // coffee = faCoffee;
+  // fas = fas;
 
   // navClass: string = 'navbar-collapse collapse';
   // btnClass: string = 'navbar-toggler';

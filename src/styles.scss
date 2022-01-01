@@ -2,3 +2,17 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.bx {
+    padding-left: 3px;
+    text-decoration: dashed !important;
+}
+
+.cursorPointer {
+  cursor: pointer;
+}
+
+.center-x {
+    display: flex;
+    justify-content: center;
+}

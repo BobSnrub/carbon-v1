@@ -1,0 +1,16 @@
+.instaSize {
+  font-size: 100px;
+}
+
+// .no-md-border {
+//   @media screen and (min-width: 991px) {
+//     border: none !important;
+//     visibility: hidden !important;
+//     color: black !important;
+//   }
+// }
+
+.no-md-border { @media (max-width: 1000px) {
+    border: none !important;
+    }
+}
