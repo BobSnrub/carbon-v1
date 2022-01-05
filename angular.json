@@ -38,11 +38,7 @@
             ],
             "scripts": [
               "node_modules/jquery/dist/jquery.min.js",
-              "node_modules/bootstrap/dist/js/bootstrap.min.js",
-              "node_modules/boxicons/dist/boxicons.js",
-              "node_modules/boxicons/src/box-icon-element.js",
-              "node_modules/boxicons/src/index.js",
-              "node_modules/boxicons/dist/boxicons.js"
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
             ]
           },
           "configurations": {

@@ -1,5 +1,6 @@
 import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -16,6 +17,7 @@ import { AboutComponent } from './pages/about/about.component';
 import { ContactComponent } from './pages/contact/contact.component';
 
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { CheckoutComponent } from './pages/checkout/checkout.component';
 
 
 @NgModule({
@@ -28,17 +30,18 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     CartComponent,
     ItemComponent,
     AboutComponent,
-    ContactComponent
+    ContactComponent,
+    CheckoutComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     FontAwesomeModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
-  schemas: [CUSTOM_ELEMENTS_SCHEMA]
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
-export class AppModule { 
-}
+export class AppModule {}

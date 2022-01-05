@@ -25,20 +25,20 @@ export class HeaderComponent implements OnInit {
   constructor(private router: Router) { }
 
   ngOnInit(): void {
-    this.router.events.subscribe(event => {
-      if (event instanceof NavigationStart) {
+    // this.router.events.subscribe(event => {
+    //   if (event instanceof NavigationStart) {
       // console.log(event.url)
-      this.routeChange(event.url);
-      }
-    })
+      // this.routeChange(event.url);
+    //   }
+    // })
   }
 
   routeChange(url: string){
     console.log(url)
     // this.navClass = "";
-    this.navClass = "navbar-collapse collapse";
+    // this.navClass = "navbar-collapse collapse";
     // this.btnClass = "";
-    this.btnClass = "navbar-toggler collapsed";
+    // this.btnClass = "navbar-toggler collapsed";
   }
 
 }
