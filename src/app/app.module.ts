@@ -18,6 +18,7 @@ import { ContactComponent } from './pages/contact/contact.component';
 
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { CheckoutComponent } from './pages/checkout/checkout.component';
+import { DecimalPipe } from '@angular/common';
 
 
 @NgModule({
@@ -38,9 +39,9 @@ import { CheckoutComponent } from './pages/checkout/checkout.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     FontAwesomeModule,
-    HttpClientModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [DecimalPipe],
   bootstrap: [AppComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
