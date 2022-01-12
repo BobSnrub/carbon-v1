@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Ultra carbon light thang",
+    "description": "This is definitly a description that will be in the prod build so do not delete me or I will chop off ur ballz",
+    "weight": "12g",
+    "compatability":"it has to be compatable with something",
+    "imgUrl": "assets/images/productImages/cf-handguard.jpeg",
+    "inStock": true,
+    "price": 99.99
+  },
+  {
+    "id": 2,
+    "title": "Prolly a good stock",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "weight": "12g",
+    "compatability":"it has to be compatable with something",
+    "imgUrl": "assets/images/productImages/cf-set-handguard-and-stock.jpeg",
+    "inStock": true,
+    "price": 109.99
+  },
+  {
+    "id": 3,
+    "title": "Dont know what else you sell",
+    "description": "I dont' really know what this should be since I do not know wut else you sell",
+    "weight": "12g",
+    "compatability":"it has to be compatable with something",
+    "imgUrl": "assets/images/productImages/cf-stock.jpeg",
+    "inStock": true,
+    "price": 49.99
+  },
+  {
+    "id": 4,
+    "title": "Dont know what else you sell2",
+    "description": "I dont' really know what this should be since I do not know wut else you sell2",
+    "weight": "12g",
+    "compatability":"it has to be compatable with something",
+    "imgUrl": "https://i.imgur.com/dkvkL80.jpeg",
+    "inStock": true,
+    "price": 49.992
+  }
+]
