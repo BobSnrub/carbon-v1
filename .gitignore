@@ -49,3 +49,6 @@ Thumbs.db
 !*/
 
 !.gitignore
+
+!src/assets/products/*
+!src/assets/styles/*
