@@ -1,0 +1,12 @@
+<div class="container ">
+    <p>checkout works!</p>
+    <div *ngIf="!paidFor">
+        <h1 class="text-danger">Buy this Couch - ${{ product.price }} OBO</h1>
+    </div>
+    
+    <div *ngIf=paidFor>
+        <h1 class="text-danger">Yay, you bought a sweet couch!</h1>
+    </div>
+    
+    <div #paypal></div>
+</div>
